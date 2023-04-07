@@ -1,0 +1,25 @@
+body {
+background-color: aqua;
+text-align: center;
+}
+h1 {
+    color: #000;;
+    font-family: 'Times New Roman';
+    font-size: x-large;
+}
+h3{
+    font-family: 'Times New Roman';
+    font-size: larger;
+}
+label{
+    /* 
+    text-align: center;
+    font-family:'Times New Roman';
+    font-size: larger;
+     */
+}
+input {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: larger;
+}

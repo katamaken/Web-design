@@ -1,0 +1,189 @@
+body {
+    background-color: aqua;
+    text-align: center;
+    top: 15;
+    background-image: url(background.jpg);
+    background-size: contain;
+}
+.logo {
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+nav{
+    background-color:green;
+    background-size: 30%;
+    font-size: x-large;
+}
+img{
+    width: 700;
+    height: 500;
+}
+header{
+    background-color: blueviolet;
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 140px;
+}
+*label{
+    /* 
+    text-align: center;
+    font-family:'Times New Roman';
+    font-size: larger;
+     */
+}
+h1{
+    font-size: 34px;
+    font-weight: bold;
+}
+.common-btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+#about,#offer{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 100%;
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about-text h2{
+    margin: 50px  10 px;
+    font-size: 28px;
+    font-style: italic;
+}
+.about-text h3{
+    font-size: 28px;
+    font-style: italic;
+    color: #797979;
+}
+
+/*---offer----*/
+#offer button{
+    margin: 30px 0;
+}
+
+/*---contact---*/
+
+.contact-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-left-col,contact-right-col{
+    flex-basis: 50%;
+}
+.contact-right-col img{
+    width: 100%;
+}
+form{
+    max-width: 350px;
+    margin: 30px 0;
+}
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #fab3c4;
+}
+.btn-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-box button{
+    flex-basis:  48%;
+    padding: 18px 0;
+}
+
+
+/*----footer----*/
+
+#footer{
+    padding: 50px 0 30px;
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer-right-col{
+    flex-basis: 35%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-title h4{
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+.link-title small{
+    font-size: 13px;
+    color: #777;
+}
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-logo img{
+    width: 100px;
+}
+.footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.copyright-text,.footer-logo{
+    flex-basis: 40%;
+}
+
+
+
+
+
+
+

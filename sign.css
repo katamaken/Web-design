@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+nav {
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    top: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+nav ul li{
+    top: 20px;
+    list-style: none;
+    display: inline-block;
+    margin: left 40px; 
+}
